@@ -1,3 +1,5 @@
+# Generator consome muito menos memória que o list comprehension
+
 generator = (i ** 2 for i in range(10) if i % 2 == 0)
 print(next(generator))  # Saída 0
 print(next(generator))  # Saída 4
