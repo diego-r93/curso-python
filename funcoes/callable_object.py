@@ -3,7 +3,7 @@ class Potencia:
     def __init__(self, expoente):
         self.expoente = expoente
 
-    def __call__(self, base):
+    def __call__(self, base): # Para chamar o objeto como uma função
         return base ** self.expoente
 
 
